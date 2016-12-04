@@ -35,7 +35,11 @@ $ gulp
 
 ```sh
 # Execs the script that rsyncs index file to the server
+# Commits the changes to GitHub
 $ sh update.sh
+
+# optional message parameter, else defaults to timestamp
+$ sh update.sh 'message'
 ```
 
 ---
