@@ -1,0 +1,23 @@
+{
+  "name": "bullshit-generator",
+  "version": "1.0.0",
+  "description": "The Bullshit Generator: Google Suggest making suggestions of its own suggestions based on the input suggested suggestions",
+  "main": "src/_src.app.js",
+  "scripts": {
+    "start": "php -S localhost:8000",
+    "dev": "ip=`ipconfig getifaddr en0`; php -S $ip:8000"
+  },
+  "keywords": [],
+  "author": "Jorge Moreno, @alterebro (www.moro.es)",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2"
+  }
+}
